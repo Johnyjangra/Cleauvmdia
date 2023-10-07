@@ -5,7 +5,7 @@ const Preload = () => {
   setTimeout(() => {
     document.getElementById("prelod").classList.add("d-none");
     document.body.style.overflow = "unset";
-  }, 4000);
+  }, 2000);
   return (
     <>
       <section

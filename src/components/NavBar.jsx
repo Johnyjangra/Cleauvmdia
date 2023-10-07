@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "./Icon";
 import MediaLogo from "./icon/MediaLogo";
+import navlogo from "../assets/img/png/logo.png";
 
 const NavBar = () => {
   const [first, setfirst] = useState(true);
@@ -14,7 +15,9 @@ const NavBar = () => {
     <nav className="bg_blur py-4">
       <div className="container custom_container">
         <div className="d-flex align-items-center justify-content-between">
-          <Logo className="w_161 w_251 cursr_pointer" />
+          <div className="w_250 w_165">
+            <img className="w-100 cursr_pointer" src={navlogo} alt="navlogo" />
+          </div>
           <div>
             <ul
               className={

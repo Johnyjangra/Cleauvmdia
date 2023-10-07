@@ -122,6 +122,12 @@
 .cream_light_crm {
   background: #fff9e4;
 }
+.w_25 {
+  width: 25%;
+}
+.w_165 {
+  width: 165px;
+}
 /* HERO */
 .bg_brown {
   background: #242323;
@@ -651,6 +657,9 @@ div.accordion-body {
   }
   .w_100 {
     width: 100px;
+  }
+  .w_250 {
+    width: 250px;
   }
 }
 
